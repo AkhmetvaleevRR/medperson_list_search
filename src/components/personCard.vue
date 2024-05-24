@@ -23,7 +23,6 @@
 </template>
 
 <script setup lang="ts">
-import { defineProps } from 'vue';
 import { usePersonStore } from '@/stores/personStore';
 import type { Iperson } from '@/Interfaces';
 

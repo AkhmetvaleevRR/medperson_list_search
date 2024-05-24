@@ -47,7 +47,7 @@
 <script setup lang="ts">
 import type { Ispecialization } from '@/Interfaces';
 import { usePersonStore } from '@/stores/personStore';
-import { defineProps, ref } from 'vue';
+import { ref } from 'vue';
 const radio = ref<any>()
 
 const pageSize = ref(5)
